@@ -11,7 +11,7 @@ function App() {
         <div className='w-full text-center text-white'>
           <h1 className='text-4xl font-bold'>Wheather Dashboard</h1>
           <p className='text-lg'>Welcome to React Tailwind Starter</p>
-          <Tabs>
+          <Tabs className='flex'>
             <div label='Current Weather'>
               <CurrentWeather />
             </div>
